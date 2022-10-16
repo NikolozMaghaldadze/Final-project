@@ -51,6 +51,7 @@
   margin-right: 20px;
   color: #fff;
 }
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -67,7 +68,7 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Work Sans", sans-serif;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 500;
   margin-left: 10px;
   margin-right: 10px;
@@ -98,8 +99,8 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 320px;
+  padding-bottom: 305px;
 }
 .main-header {
   font-family: "Work Sans", sans-serif;
@@ -148,4 +149,97 @@
   display: inline-block;
   font-size: 20px;
   color:#FFF ;
+  cursor: pointer;
+}
+.magnify:hover{
+  color: #3591e7;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+
+.section-1{
+  width: 100%;
+  height: auto;
+  background-image: url(../images/pexels-evgeny-tchebotarev-2187605.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  opacity: 1;
+  padding: 50px;
+}
+
+.section-main-header{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-1-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+
+.img-class{
+  max-width: 500px;
+  width: 100%;
+  height: 400px;
+  padding-top: 40px;
+}
+.japan-flag{
+  width: 90%;
+  height: 90%;
+}
+.map-photo-wrapper{
+  max-width: 500px;
+  width: 100%;
+  height: 400px;
+}
+.map-photo{
+  width: 90%;
+  height: 90%;
+  margin-top: 30px;
+}
+.info-wrapper{
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.infos-wrapper{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.info-japan{
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #FFF;
+  background-color: rgba(0, 0, 0 , 0.4)
+}
+
+.about-japan{
+  font-family: "Work Sans", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.info-japan-1{
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #FFF;
 }
