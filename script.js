@@ -13,9 +13,9 @@ toggleBar.addEventListener("click", function(){
 
 $('.list-item').click(function(e){
     e.preventDefault();
-    var target = $($(this).attr('href'));
+    let target = $($(this).attr('href'));
     if(target.length){
-      var scrollTo = target.offset().top;
-      $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+      let scrollTo = target.offset().top;
+      $('body, html').animate({scrollTop: scrollTo+'px'}, 1000);
     }
   });
