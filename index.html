@@ -31,16 +31,19 @@
 
     <header class="header-wrapper">
       <div class="header-content-wrapper">
-        <div class="header-top-wrap">
-          <div class="logo-wrapper">
-            <img
-              class="logo-wrapper"
-              src="images/Discover-Japan-Logo.png"
-              alt="main-logo"
-            />
-          </div>
-          <div class="navigation-wrap">
-            <nav class="navigation">
+        <div class="logo-wrapper">
+          <img
+            class="logo-wrapper"
+            src="images/Discover-Japan-Logo.png"
+            alt="main-logo"
+          />
+        </div>
+        <div class="navigation-wrap">
+            <div class="burger-bar"  id="toggleBar">
+              <i class="fa-sharp fa-solid fa-bars "></i>
+            </div>
+            <nav class="navigation" id="navBar">
+              
               <ul class="nav-ul">
                 <li class="list-item">
                   <a href="#" class="list-item">Home</a>
@@ -56,9 +59,8 @@
                 </li>
               </ul>
             </nav>
-            <i class="fa-sharp fa-solid fa-bars burger-bar"></i>
+            
             <i class="fa-solid fa-magnifying-glass magnify"></i>
-          </div>
         </div>
       </div>
 
@@ -67,7 +69,9 @@
 
         <p class="header-info">Discover the lesser-known things about japan.</p>
 
-        <button class="btn-sub"><span class="btn-text">See more</span></button>
+        <div id="alert-button" class="btn-sub"> 
+          <span class="btn-text">See more</span>
+        </div>
       </div>
     </header>
 
@@ -142,9 +146,194 @@
               such cities as Kyōto and Nara, as well as in Japan's ubiquitous
               gardens.
             </p>
+            <a class="link-tag-sb-1" href="https://www.britannica.com/place/Japan"
+              >Read more...</a
+            >
           </div>
         </div>
       </div>
     </section>
+
+    <section class="section-2">
+      <div class="title-wrapper">
+        <h1 class="section-2-main-header">Japanese Culture</h1>
+        <p class="short-info">
+          Japan has a fascinating and multifaceted culture; on the one hand it
+          is steeped in the deepest of traditions dating back thousands of
+          years; on the other it is a society in a continual state of rapid
+          flux, with continually shifting fads and fashions and technological
+          development that constantly pushes back the boundaries of the
+          possible. This is part of what makes it such a fascinating country to
+          visit. If you are looking for something different you are sure to find
+          it here!
+        </p>
+      </div>
+
+      <div class="section-2-wrapper">
+        <div class="block-wrapper-2">
+          <img
+            class="japanese-people-img"
+            src="images/pexels-cottonbro-10285574.png"
+            alt="image of japanese human"
+          />
+          <p class="title-block">People</p>
+          <p class="paragraph-info">
+            Japan is famous for its supposed homogeny, but Japan's population is
+            much more diverse than you might think.
+          </p>
+          <a
+            class="link-tag-sb"
+            href="https://www.insidejapantours.com/japanese-culture/people/"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+
+        <div class="block-wrapper-2">
+          <img
+            class="japanese-people-img"
+            src="images/pexels-enric-cruz-lópez-9989588.png"
+            alt="image of japanese idol"
+          />
+          <p class="title-block">Religion</p>
+          <p class="paragraph-info">
+            Multiple religions coexist in a country where people are born
+            Shinto, get married Christian and die Buddhist.
+          </p>
+          <a
+            class="link-tag-sb"
+            href="https://www.insidejapantours.com/japanese-culture/religion/"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+
+        <div class="block-wrapper-2">
+          <img
+            class="japanese-people-img"
+            src="images/pexels-diego-pontes-2323398.png"
+            alt="image of japanese food"
+          />
+          <p class="title-block">Food</p>
+          <p class="paragraph-info">
+            Japan is a foodie's paradise, with some of the finest and most
+            varied cuisine in the world.
+          </p>
+          <a
+            class="link-tag-sb"
+            href="https://www.insidejapantours.com/japanese-culture/food/"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+
+        <div class="block-wrapper-2">
+          <img
+            class="japanese-people-img"
+            src="images/pexels-juan-idier-alba-enriquez-4392771.png"
+            alt="image of japanese human"
+          />
+          <p class="title-block">Sports</p>
+          <p class="paragraph-info">
+            Learn about Japan's traditional sports, from martial arts like
+            karate and kendo to the spiritual ritual that is sumo.
+          </p>
+          <a
+            class="link-tag-sb"
+            href="https://www.insidejapantours.com/japanese-culture/sports/"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+
+        <div class="block-wrapper-2">
+          <img
+            class="japanese-people-img"
+            src="images/pexels-sachith-ravishka-kodikara-5971313.png"
+            alt="image of japanese human"
+          />
+          <p class="title-block">Samurai</p>
+          <p class="paragraph-info">
+            Read about the history and legacy of Japan's famous warrior class.
+          </p>
+          <a
+            class="link-tag-sb"
+            href="https://www.insidejapantours.com/japanese-culture/samurai/"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+
+        <div class="block-wrapper-2">
+          <img
+            class="japanese-people-img"
+            src="images/pexels-miguel-á-padriñán-1272838.png"
+            alt="image of japanese human"
+          />
+          <p class="title-block">Origami</p>
+          <p class="paragraph-info">
+            We take an indepth look at the history of paperfolding
+          </p>
+          <a
+            class="link-tag-sb"
+            href="https://www.insidejapantours.com/japanese-culture/origami/"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+
+      <h1 class="main-header-1">Let us know what you think</h1>
+      <p class="header-info-1">Fill out this form and leave comment for us!</p>
+
+      <div class="combiner-block">
+        <div class="description">
+          <form action="#" class="form-element">
+            <input
+              type="text"
+              class="big-input"
+              placeholder="enter your comment"
+              required
+            />
+          </form>
+        </div>
+        <div class="right-block">
+          <div class="registration-form">
+            <form class="form-elements" action="#">
+              <input
+                type="email"
+                placeholder="enter your Email!"
+                class="input-element"
+                required
+              />
+
+              <input
+                type="tel"
+                placeholder="enter your phone number!"
+                class="input-element"
+                required
+              />
+
+              <input
+                type="password"
+                placeholder="enter your password!"
+                class="input-element"
+                required
+              />
+
+              <button type="submit" class="sb-button">Submit!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+    <script src="function.js"></script>
   </body>
 </html>
