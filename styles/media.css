@@ -7,7 +7,6 @@
 
 /*header-ის Responsive*/
 @media (max-width: 1700px) {
-
 }
 
 @media (max-width: 1495px) {
@@ -50,10 +49,10 @@
     padding-top: 20px;
   }
 
-  .burger-1{
+  .burger-1 {
     display: block;
   }
-  
+
   .magnify {
     display: none;
   }
@@ -104,7 +103,7 @@
     flex-direction: column;
   }
   .list-item {
-    margin:0;
+    margin: 0;
     padding-top: 10px;
   }
 }
@@ -149,21 +148,21 @@
   }
 }
 
-@media (max-width: 385px){
-  .logo-wrapper{
-    width:233px ;
-    height:50px ;
+@media (max-width: 385px) {
+  .logo-wrapper {
+    width: 233px;
+    height: 50px;
   }
 }
 
-@media(max-width:520px){
+@media (max-width: 520px) {
   .navigation-wrap {
     margin: 0 auto;
   }
-  .logo-wrapper{
+  .logo-wrapper {
     margin: 0 auto;
   }
-  .header-info{
+  .header-info {
     font-size: 12px;
   }
 }
@@ -207,6 +206,7 @@
 @media (max-width: 700px) {
   .info-japan {
     font-size: 15px;
+    margin-top: 20px;
   }
 }
 
