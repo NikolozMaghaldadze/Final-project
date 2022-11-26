@@ -478,7 +478,7 @@
   cursor: pointer;
   opacity: 0.9;
   -webkit-box-shadow: 0px 5px 10px #3591e7;
-  box-shadow: 0px 5px 10px #3591e7;
+  box-shadow: 0px 10px 10px #3591e7;
 }
 
 .link-tag-sb-1:hover {
